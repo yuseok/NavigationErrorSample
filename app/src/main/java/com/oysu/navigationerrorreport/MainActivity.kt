@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+    // This show an error!!
     override fun onNewIntent(intent: Intent?) {
         super.onNewIntent(intent)
     }
